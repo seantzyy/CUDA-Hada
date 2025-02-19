@@ -18,7 +18,7 @@ This project implements the Hadamard product (element-wise multiplication of two
 #### C Test Run for Array Size 4096x4096
 ![image](https://github.com/user-attachments/assets/25d2decc-17fa-49ce-9b7c-c1c0bbaf6ad3)
 
--NOTE: Only the First 10x10 Matrix of x, y, and z are printed for checking the correctness of Hazamard implementation
+-NOTE: Only the First 10x10 Matrix of x,  y, and z are printed for checking the correctness of Hazamard implementation
 ### B.) CUDA Colab Platform
 #### Test Run for Array Size 1024x1024 and Threads per Block 8x8
 ![image](https://github.com/user-attachments/assets/38e9ad68-c5fd-432c-9b75-eb3d5f2959f9)
