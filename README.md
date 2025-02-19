@@ -1,7 +1,7 @@
 ## 👨‍💻 GROUP 4 - Authors: Arca, Co Chiong, Uy
 ## PROJECT SPECS:
 ![Image](https://github.com/user-attachments/assets/ed1c1309-5781-4a9c-91be-39ef8d98a9a4)
-###Based on the Given specifications, this project implements a 1D-stencil operation on a vector using:
+### Based on the Given specifications, this project implements a 1D-stencil operation on a vector using:
 - C (Baseline Implementation)
 - CUDA C program using Colab platform
 ## About the project
