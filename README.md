@@ -54,7 +54,7 @@ FOR CHECKING:
     - Microsoft Visual Studio Project for C implementation of Hadamard
 ## Links
 - **`YouTube video presentation:`** [put link here:
-- **`Google Colab link [View access only]:`** [https://colab.research.google.com/drive/1oDxz_rxxR9Bvl-Rzpq9jEMAtjisXscJr?usp=sharing]
+- **`Google Colab link [View access only]:`** [https://colab.research.google.com/drive/1oDxz_rxxR9Bvl-Rzpq9jEMAtjisXscJr?usp=sharing]](https://colab.research.google.com/drive/1oDxz_rxxR9Bvl-Rzpq9jEMAtjisXscJr?usp=sharing)
     - NOTE: Must be a part of the DLSU organzation when accessing the Google Colab link
 ## References
 https://erangad.medium.com/1d-2d-and-3d-thread-allocation-for-loops-in-cuda-e0f908537a52 
