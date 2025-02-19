@@ -1,4 +1,4 @@
-## 👨‍💻 GROUP 4 - Authors: Arca, Co Chiong, Uy
+![image](https://github.com/user-attachments/assets/b3a1a623-2551-48ae-9b8d-1029217f5d81) ## 👨‍💻 GROUP 4 - Authors: Arca, Co Chiong, Uy
 ## COLLAB LINK HERE: [https://colab.research.google.com/drive/1oDxz_rxxR9Bvl-Rzpq9jEMAtjisXscJr?usp=sharing]
 ## PROJECT SPECS:
 ![Image](https://github.com/user-attachments/assets/ed1c1309-5781-4a9c-91be-39ef8d98a9a4)
@@ -45,6 +45,26 @@ FOR CHECKING:
 ![image](https://github.com/user-attachments/assets/ce7c43d3-504a-43d3-bc8a-c2d6e37a3380)
 
 ### C.) Comparative Table of Execution time
+| Array Size    | Thread Size     | Avg. Execution Time (ms)|  Host-to-Device Transfer (ms) |
+|     :---:     | :---:           |     :---:               |                :---:          |
+| 1024×1024     | 8×8             |  
+|               | :---:           |     :---:               |                :---:          |
+|               | 16×16           |    
+|               | :---:           |     :---:               |                :---:          |
+|               | 32×32           |     
+|     :---:     | :---:           |     :---:               |                :---:          |
+| 2048x2048     | 8×8             |  
+|               | :---:           |     :---:               |                :---:          |
+|               | 16×16           |    
+|               | :---:           |     :---:               |                :---:          |
+|               | 32×32           | 
+|     :---:     | :---:           |     :---:               |                :---:          |
+| 4096x4096     | 8×8             |  
+|               | :---:           |     :---:               |                :---:          |
+|               | 16×16           |    
+|               | :---:           |     :---:               |                :---:          |
+|               | 32×32           |     
+|     :---:     | :---:           |     :---:               |                :---:          |
 
 ## Important Files
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
