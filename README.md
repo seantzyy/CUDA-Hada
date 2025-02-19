@@ -21,23 +21,23 @@ This project implements the Hadamard product (element-wise multiplication of two
 -NOTE: Only the First 10x10 Matrix of x, y, and z are printed for checking the correctness of Hazamard implementation
 ### B.) CUDA Colab Platform
 #### Test Run for Array Size 1024x1024 and Threads per Block 8x8
-![image](https://github.com/user-attachments/assets/77b181ec-88f0-4408-9115-d4e4febf50c4)
+![image](https://github.com/user-attachments/assets/38e9ad68-c5fd-432c-9b75-eb3d5f2959f9)
 #### Test Run for Array Size 1024x1024 and Threads per Block 16x16
-![image](https://github.com/user-attachments/assets/3a754b4b-c0f6-43d1-84ff-62d80677f305)
+![image](https://github.com/user-attachments/assets/ace81ed3-720c-44df-869f-d8efdbf99af9)
 #### Test Run for Array Size 1024x1024 and Threads per Block 32x32
-![image](https://github.com/user-attachments/assets/5713fb3a-cbb4-4e78-a617-6a6cffe76f75)
+![image](https://github.com/user-attachments/assets/ff38bf10-b001-4837-9523-e930cdd22cd9)
 #### Test Run for Array Size 2048x2048 and Threads per Block 8x8
-![image](https://github.com/user-attachments/assets/f2b8a581-9a1e-43d4-9152-4daf84a7cb34)
+![image](https://github.com/user-attachments/assets/fabc473a-2de4-4732-bf02-5bc9edadbfa3)
 #### Test Run for Array Size 2048x2048 and Threads per Block 16x16
-![image](https://github.com/user-attachments/assets/a2edc125-fba1-459b-b69c-1cb070d03768)
+![image](https://github.com/user-attachments/assets/d0d946af-3d12-4dd6-93fe-c832a131af3d)
 #### Test Run for Array Size 2048x2048 and Threads per Block 32x32
-![image](https://github.com/user-attachments/assets/e315719d-36bd-40f6-bca5-3e96fe0ef5ba)
+![image](https://github.com/user-attachments/assets/c73bb042-c325-4901-8e9a-1f7beef7eea9)
 #### Test Run for Array Size 4096x4096 and Threads per Block 8x8
-![image](https://github.com/user-attachments/assets/fee89989-0e62-4120-aa65-7bee5412dfb9)
+![image](https://github.com/user-attachments/assets/8f461718-7338-4623-bbb3-d5823d5eda98)
 #### Test Run for Array Size 4096x4096 and Threads per Block 16x16
-![image](https://github.com/user-attachments/assets/e401e0e4-3372-4173-b6f1-1dcfb6d0bab5)
+![image](https://github.com/user-attachments/assets/e13e95d3-48e1-4128-9e38-620cee27d834)
 #### Test Run for Array Size 4096x4096 and Threads per Block 32x32
-![image](https://github.com/user-attachments/assets/594ae7e6-1ffd-4291-b6a0-a36957299cb4)
+![image](https://github.com/user-attachments/assets/f5ee26bf-79c1-4e00-ba97-6e8ee1ad5198)
 
 FOR CHECKING:
 ![image](https://github.com/user-attachments/assets/ce7c43d3-504a-43d3-bc8a-c2d6e37a3380)
