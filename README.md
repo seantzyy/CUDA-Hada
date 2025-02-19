@@ -23,5 +23,5 @@ Compare different memory management techniques in CUDA:
 Measure and compare execution time and memory transfer overhead.
 ## Important Files and Links
 
-##References
+## References
 https://erangad.medium.com/1d-2d-and-3d-thread-allocation-for-loops-in-cuda-e0f908537a52 
