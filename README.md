@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/2fa1bfd6-7684-4498-a088-a55b428f6bfd)![image](https://github.com/user-attachments/assets/e2fc0d69-a2e4-4f11-b5d0-4b84c6af84f3)# Hadamard Product Using CUDA: CPU vs GPU Performance Comparison
 ## 👨‍💻 GROUP 4 - Authors: Arca, Co Chiong, Uy
 ## PROJECT SPECS:
 ![Image](https://github.com/user-attachments/assets/ed1c1309-5781-4a9c-91be-39ef8d98a9a4)
