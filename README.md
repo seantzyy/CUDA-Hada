@@ -21,7 +21,12 @@ Compare different memory management techniques in CUDA:
   4. Traditional Host-Device Memory Copy (cudaMemcpy)
 
 Measure and compare execution time and memory transfer overhead.
-## Important Files and Links
-
+## Important Files
+- *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
+    - PDF file containing the specifications of the project
+- *`[CEPARCO]Group4_GPUHadamard.ipynb`*
+    - Notebook containing the source code implementation for each memory transfer method
+- *`[CEPARCO]`*
+## Links
 ## References
 https://erangad.medium.com/1d-2d-and-3d-thread-allocation-for-loops-in-cuda-e0f908537a52 
