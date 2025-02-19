@@ -45,20 +45,27 @@ FOR CHECKING:
 ![image](https://github.com/user-attachments/assets/ce7c43d3-504a-43d3-bc8a-c2d6e37a3380)
 
 ### C.) Comparative Table of Execution time
+## 2D
 | Array Size    | Thread Size | Avg. Execution Time (ms) | Host-to-Device Transfer (ms) |
 |--------------|------------|--------------------------|-----------------------------|
-| **1024×1024** | **8×8**     |                          |                             |
-|              | 16×16       |                          |                             |
-|              | 32×32       |                          |                             |
-| **2048×2048** | **8×8**     |                          |                             |
-|              | 16×16       |                          |                             |
-|              | 32×32       |                          |                             |
-| **4096×4096** | **8×8**     |                          |                             |
-|              | 16×16       |                          |                             |
-|              | 32×32       |                          |                             |
+| **1024×1024** | **8×8**     |         0.0685                  |  0.706584                         |
+|              | 16×16       |               0.0699           |            0.68924                 |
+|              | 32×32       |           0.0752               |               0.691481              |
+| **2048×2048** | **8×8**     |          0.2258                |       2.778633                   |
+|              | 16×16       |          0.2253                 |          2.779876                   |
+|              | 32×32       |               0.2511           |              2.776966               |
+| **4096×4096** | **8×8**     |            0.8806               |            11.10045                 |
+|              | 16×16       |      0.8750                     |               11.09839              |
+|              | 32×32       |           0.2255               |               2.773575              |
 
+## 3D
+| Array Size    | Thread Size | Avg. Execution Time (ms) | Host-to-Device Transfer (ms) |
+|--------------|------------|--------------------------|-----------------------------|
+| **1024×1024** | **8×8x8**     |         55.6947                 |  710.4040                         |
+|              | 16×16x16       |               55.0947           |      710.3877                       |
 
-## Important Files
+### D.) Analysis 
+The execution time of array size For 1024×1024, 8×8 is (faster) than 16×16 and 32×32
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
     - PDF file containing the specifications of the project
 - *`[CEPARCO]Group4_GPUHadamard.ipynb`*
