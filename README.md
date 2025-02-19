@@ -25,7 +25,7 @@ Measure and compare execution time and memory transfer overhead.
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
     - PDF file containing the specifications of the project
 - *`[CEPARCO]Group4_GPUHadamard.ipynb`*
-    - Notebook containing the source code implementation for each memory transfer method
+    - Notebook containing the source code implementation for Hadamard with CUDA Memory Models
 - *`Hadamard`*
     - Microsoft Visual Studio Project for C implementation of Hadamard
 ## Links
