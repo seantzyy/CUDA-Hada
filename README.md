@@ -40,6 +40,7 @@ This project implements the Hadamard product (element-wise multiplication of two
 ![image](https://github.com/user-attachments/assets/f5ee26bf-79c1-4e00-ba97-6e8ee1ad5198)
 
 FOR CHECKING:
+
 ![image](https://github.com/user-attachments/assets/ce7c43d3-504a-43d3-bc8a-c2d6e37a3380)
 
 
