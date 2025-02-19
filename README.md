@@ -43,7 +43,7 @@ FOR CHECKING:
 
 ![image](https://github.com/user-attachments/assets/ce7c43d3-504a-43d3-bc8a-c2d6e37a3380)
 
-
+### C.) Comparative Table of Execution time
 
 ## Important Files
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
