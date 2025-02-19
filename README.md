@@ -8,19 +8,12 @@
 ## About the project
 This project implements the Hadamard product (element-wise multiplication of two matrices) using both CPU and GPU approaches. The focus is on analyzing different CUDA memory management techniques and their impact on execution time and memory transfer efficiency.
 ##Objectives
-Implement the Hadamard product in C (CPU implementation) and CUDA (GPU implementation).
+1. Implement the Hadamard product in C (CPU implementation) and CUDA (GPU implementation).
+2. Measure and compare execution time and memory transfer overhead.
+## Results and Discussion:
+### A.) Execution time comparison between sequential and parallel 
 
-Compare different memory management techniques in CUDA:
 
-  1. Unified Memory (CUDA 6+)
-
-  2. Prefetching with Memory Advice
-
-  3. Direct Data Transfer via CUDA Kernels
-
-  4. Traditional Host-Device Memory Copy (cudaMemcpy)
-
-Measure and compare execution time and memory transfer overhead.
 ## Important Files
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
     - PDF file containing the specifications of the project
