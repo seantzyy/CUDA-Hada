@@ -11,7 +11,14 @@ This project implements the Hadamard product (element-wise multiplication of two
 1. Implement the Hadamard product in C (CPU implementation) and CUDA (GPU implementation).
 2. Measure and compare execution time and memory transfer overhead.
 ## Results and Discussion:
-### A.) Execution time comparison between sequential and parallel 
+### A.) Execution time comparison between C And CUDA Colab Platform
+#### C Test Run for Array Size 1024x1024
+![image](https://github.com/user-attachments/assets/ceb78058-e673-4a15-88fe-667a39297993)
+#### CPROGRAM - Array Size is 2048x2048
+![image](https://github.com/user-attachments/assets/63955ab2-f5d1-4a2f-baa5-5db8ce74fb4f)
+#### CPROGRAM - Array Size is 4096x4096
+![image](https://github.com/user-attachments/assets/25d2decc-17fa-49ce-9b7c-c1c0bbaf6ad3)
+
 
 
 ## Important Files
