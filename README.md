@@ -65,7 +65,20 @@ FOR CHECKING:
 |              | 16×16x16       |               55.0947           |      710.3877                       |
 
 ### D.) Analysis 
-The execution time of array size For 1024×1024, 8×8 is (faster) than 16×16 and 32×32
+
+A 1024×1024 matrix has a lot of elements, for readability only a 10x10 portion was shown. According to the execution results, performance is affected by thread block size, for 2D array size  1024×1024, 8×8 thread block was faster than 16×16 and 32×32 for a 1024×1024 matrix.this might could implu that the smaller thread groups are better for this case since they put less strain on the registers, which enables the GPU to distribute the burden effectively. Although 16x16 outperformed 8x8, the difference was rather small suggesting that both setups balance hardware resource usage and execution speed for matrices of this size. Performance declined for 32×32, most likely as a result of ineffective workload scheduling and higher register pressure 
+
+When dealing with 4096×4096, The 32×32 configuration outperformed 16×16 and 8×8 demonstrating the importance of memory access patterns. As matrix size increases, global memory access efficiency becomes a dominant factor in performance. Larger thread blocks reduce the number of kernel launches, leading to better overall performance. The improvement in 32×32 for large matrices can be attributed to more efficient memory transactions
+
+for the 3D execution, only a reference test was conducted due to hardware limitations. For a 1024×1024×1024 matrix, 16×16×16 was slightly faster than 8×8×8, but the difference was not significant. In 3D grid execution, larger thread blocks tend to be more efficient as they maximize GPU occupancy and optimize global memory access patterns.
+
+The observed performance trends can be explained by the tradeoffs between thread block size, memory access efficiency, and kernel launch overhead. Smaller blocks offer better flexibility and lower register pressure, making them ideal for small to medium-sized matrices. However, for larger matrices, bigger thread blocks reduce the number of kernel launches and improve global memory coalescing, which is crucial for maximizing performance.  
+
+For 1024×1024 matrices, smaller thread blocks are preferred because the GPU can efficiently distrbute the workload. As the matrix size grows, larger thread blocks become advantageous because they reduce idle time and minimize memory access delays. For a 4096×4096 matrix, the 32×32 configuration was the most efficient, as it resulted in fewer memory transactions and reduced kernel launch overhead.
+
+Overall, we observed that smaller matrices perform better with smaller thread blocks, as they help balance register usage and parallel execution while larger matrices benefit from larger thread blocks, which reduce memory access latency and kernel launch overhead, which leads to better GPU utilization
+
+
 - *`CEPARCO GPU group project 2nd Term AY 2024-2025.pdf`*
     - PDF file containing the specifications of the project
 - *`[CEPARCO]Group4_GPUHadamard.ipynb`*
