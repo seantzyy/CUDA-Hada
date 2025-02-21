@@ -86,7 +86,7 @@ Overall, we observed that smaller matrices perform better with smaller thread bl
 - *`Hadamard`*
     - Microsoft Visual Studio Project for C implementation of Hadamard
 ## Links
-- **`YouTube video presentation:`** [put link here:
+- **`YouTube video presentation:`** [https://youtu.be/KBNw_EGrXiM]
 - **`Google Colab link [View access only]:`** [https://colab.research.google.com/drive/1oDxz_rxxR9Bvl-Rzpq9jEMAtjisXscJr?usp=sharing]
     - NOTE: Must be a part of the DLSU organzation when accessing the Google Colab link
 ## References
